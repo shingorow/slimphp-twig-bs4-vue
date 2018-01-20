@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="/public/css/index.css">
+        
+        <title>{{ title }}</title>
+ 
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header id="header" class="row justify-content-center sticky-top bg-light">
+                <div class="header__brand-logo col-sm-10">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="/">Bootstrap 4</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-3">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="row justify-content-sm-center bg-dark text-light">
+                <div class="col-sm-8">
+                    <div class="main-visual d-flex align-items-center justify-content-center justify-content-sm-end mt-5 mb-5 pt-5 pb-5">
+                        <section class="text-center text-sm-right">
+                            <h1>{{ title }}</h1>
+                            <p>Bootstrap 4 で快適なコーディング</p>
+                            <a href="https://getbootstrap.com/" class="btn btn-info">Bootstrapを手に入れよう</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center pt-5 pb-5">
+                <div class="col-sm-9 text-center">
+                    <div class="benefits mt-5 mb-5">
+                        <h2 class="mb-3">コーディングの負担を大幅に減らす</h2>
+                        <section>
+                            <dl>
+                                <dt>HTMLのみで完結</dt>
+                                <dd>DOM要素のClassを付与するだけでスタイリングできる手軽さ</dd>
+                                
+                                <dt>世界中で利用されている</dt>
+                                <dd>ノウハウは検索でいくらでも見つかります</dd>
+                            </dl>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center pt-5 pb-5 bg-light">
+                <div class="col-12">
+                    <h2 class="text-center mt-5 mb-5">様々な環境に対応</h2>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="advantage">
+                        <h3>あなたに最適な導入方法</h3>
+                        <p>導入の方法は CDN にリンクを張る、npm でインストールするなどの他、開発環境にお応じて選ぶことができます。</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="advantage">
+                        <h3>クロスブラウザ問題を解決</h3>
+                        <p>Mac, Windows の様々なブラウザーでの互換性を確保。</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="advantage">
+                        <h3>日本語のドキュメント</h3>
+                        <p>ドキュメントは日本語に完全対応。ストレスなく開発をすすめることができます。</p>
+                    </div>
+                </div>
+            </div>
+
+      
+            <div class="row justify-content-center pt-5 pb-5">
+                <div class="col-12">
+                    <form>
+                        <div class="row justify-content-center mb-3">
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <label>お名前</label>
+                                    <div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>メール</label>
+                                    <div>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <label>お問い合わせ内容</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-4">
+                                <button type="button" class="btn btn-success btn-block">お問い合わせをする</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <footer id="footer" class="row justify-content-center align-items-stretch bg-dark text-light pt-5 pb-3">
+                <div class="col-sm-3 d-flex align-items-center">
+                    <div class="brand-logo">
+                        <h2>Bootstrap 4</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li>会社情報</li>
+                        <li>プレスリリース</li>
+                        <li>お問い合わせ</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li>Twitter</li>
+                        <li>facebook</li>
+                        <li>Google+</li>
+                    </ul>
+                </div>
+                
+                <div class="col-12 mt-3">
+                    <div class="footer__copyright text-center">
+                        <p>Copyright Hogehoge.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="/public/js/index.js"></script>
+    </body>
+</html>
