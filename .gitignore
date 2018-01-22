@@ -3,3 +3,5 @@
 !/logs/README.md
 /node_modules/
 /cache/
+/public/css/*
+/public/js/*
